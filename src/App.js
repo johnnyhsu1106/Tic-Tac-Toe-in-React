@@ -80,7 +80,7 @@ class App extends React.Component {
             </div>
             <div className="game-info">
                 <div id='status'>{status}</div>
-                <div id='reset'><button onClick={this.handleReset}> Restartg </button></div>
+                <div id='reset'><button onClick={this.handleReset}> Restart </button></div>
             </div>
         </div>
         );
