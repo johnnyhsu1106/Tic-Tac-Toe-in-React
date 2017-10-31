@@ -44,3 +44,9 @@ body {
 .game-info {
     text-align: center;
 }
+@@media screen and (max-width: 480px) {
+    body {
+        font: 20px;
+    }
+
+}
