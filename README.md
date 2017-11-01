@@ -7,16 +7,6 @@ Then, deploy it to Heorku with zero-configuration.
 <a href ='https://blog.heroku.com/deploying-react-with-zero-configuration'>
 https://blog.heroku.com/deploying-react-with-zero-configuration</a>
 
-Create and Deploy a React App in Two Minutes on Heroku.
 
-npm install -g create-react-app
-create-react-app my-app
-cd my-app
-git init
-heroku create -b https://github.com/mars/create-react-app-buildpack.git
-git add .
-git commit -m "react-create-app on Heroku"
-git push heroku master
-heroku open
 
 
