@@ -3,6 +3,7 @@ import Header from './components/header';
 import Board from './components/board';
 import Info from './components/info';
 
+
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -43,7 +44,6 @@ class App extends React.Component {
                              [2, 5, 8],
                              [0, 4, 8],
                              [2, 4, 6]];
-
         for (let [a, b, c] of combination) {
             if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
                 return squares[a];
@@ -65,7 +65,6 @@ class App extends React.Component {
                         handleClick={(i) => {this.handleClick(i)}}
                     />
                 </div>
-
             </div>
             <div className="game-info">
                 <Info
