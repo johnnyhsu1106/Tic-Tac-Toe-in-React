@@ -1,5 +1,5 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font: 16px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 
 }
@@ -9,17 +9,9 @@ body {
     margin-right: auto;
     text-align: center;
 }
-#status{
-    margin-bottom: 20px;
-}
-#reset button{
-    height: 50px;
-    width: 270px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #ccc;
-    background: #ddd;
-}
+
 .square {
+    color: #000;
     background: #fff;
     border: 2px solid #999;
     float: left;
@@ -44,10 +36,18 @@ body {
 .game-info {
     text-align: center;
 }
+#reset button{
+    height: 50px;
+    width: 270px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+    background: #ddd;
+}
+#winner {
+    color: red;
+}
 @media only screen and (max-width: 480px) {
-
     .game-info, #reset button {
         font-size: 24px;
     }
-
 }
