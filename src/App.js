@@ -24,7 +24,6 @@ class App extends React.Component {
                 squares: squares,
                 xIsNext: !prevState.xIsNext
             };
-
         });
     }
     handleReset() {
@@ -81,5 +80,4 @@ class App extends React.Component {
         );
     }
 }
-
 export default App;
