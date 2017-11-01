@@ -19,15 +19,20 @@ class App extends React.Component {
             return;
         }
         squares[i] = this.state.xIsNext ? "X" : "O";
-        this.setState((prevState) => ({
-            squares: squares,
-            xIsNext: !prevState.xIsNext
-        }));
+        this.setState((prevState) => {
+            return {
+                squares: squares,
+                xIsNext: !prevState.xIsNext
+            };
+
+        });
     }
     handleReset() {
-        this.setState({
-            squares: new Array(9).fill(null),
-            xIsNext: true
+        this.setState(() => {
+            return {
+                squares: new Array(9).fill(null),
+                xIsNext: true
+            }
         });
     }
     getWinner(squares) {
