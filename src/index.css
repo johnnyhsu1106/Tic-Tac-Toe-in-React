@@ -44,7 +44,7 @@ body {
     background: #ddd;
 }
 #winner {
-    color: red;
+    color: #d00;
 }
 @media only screen and (max-width: 480px) {
     .game-info, #reset button {
