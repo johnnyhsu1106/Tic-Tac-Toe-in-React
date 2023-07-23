@@ -25,10 +25,6 @@ class App extends React.Component {
                 squares: squares,
                 xIsNext: !prevState.xIsNext
             };
-<<<<<<< HEAD
-=======
-
->>>>>>> 500404ae5a8783f1f407f9cf89aede74495a5352
         });
     }
     handleReset() {
