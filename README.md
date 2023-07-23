@@ -1,8 +1,9 @@
-This is a web app 'Tic Tac Toe' built in React JS. <br>
-<a href= 'https://tic-tac-toe-in-react.herokuapp.com/'> Click to check web app </a> <br>
-I use the create-react-app to create react apps with no build configuration. <br>
-<a href='https://github.com/facebookincubator/create-react-app'>
-https://github.com/facebookincubator/create-react-app</a> <br>
-Then, deploy it to Heorku with zero-configuration. <br>
-<a href ='https://blog.heroku.com/deploying-react-with-zero-configuration'>
-https://blog.heroku.com/deploying-react-with-zero-configuration</a>
+### Getting Started
+This is a To Tic Tac Toe built based on React.
+
+Checkout this repo, install dependencies, then start the gulp process with the following:
+```
+> npm install
+> npm start
+```
+![image](https://github.com/johnnyhsu1106/React-Photo-Editor/assets/18588513/67a0f5bb-aec8-46a2-8c8d-84047e50f9a9)
